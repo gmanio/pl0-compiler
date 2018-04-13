@@ -1,9 +1,5 @@
-CONST
-  m =  7,
-  n = 85;
-
-VAR
-  x, y, z, q, r;
+CONST m =  7, n = 85;
+VAR x, y, z, q, r;
 
 PROCEDURE multiply;
 VAR a, b;
