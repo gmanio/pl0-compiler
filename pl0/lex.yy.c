@@ -492,8 +492,7 @@ int yy_flex_debug = 0;
 char *yytext;
 #line 1 "pl0.l"
 #line 2 "pl0.l"
-#include "pl0.tab.h"
-#line 497 "lex.yy.c"
+#line 496 "lex.yy.c"
 
 #define INITIAL 0
 
@@ -675,9 +674,9 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
     
-#line 5 "pl0.l"
+#line 4 "pl0.l"
 
-#line 681 "lex.yy.c"
+#line 680 "lex.yy.c"
 
 	if ( !(yy_init) )
 		{
@@ -762,111 +761,111 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 6 "pl0.l"
+#line 5 "pl0.l"
 ;
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 7 "pl0.l"
-{ return(ODD);}
+#line 6 "pl0.l"
+{ return ODD;}
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 8 "pl0.l"
-{ return(TCONST); }
+#line 7 "pl0.l"
+{ return TCONST; }
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 9 "pl0.l"
-{ return(TVAR); }
+#line 8 "pl0.l"
+{ return TVAR; }
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 10 "pl0.l"
-{ return(TPROC); }
+#line 9 "pl0.l"
+{ return TPROC; }
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 11 "pl0.l"
-{ return(TCALL); }
+#line 10 "pl0.l"
+{ return TCALL; }
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 12 "pl0.l"
-{ return(TBEGIN); }
+#line 11 "pl0.l"
+{ return TBEGIN; }
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 13 "pl0.l"
-{ return(TEND); }
+#line 12 "pl0.l"
+{ return TEND; }
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 14 "pl0.l"
-{ return(TIF); }
+#line 13 "pl0.l"
+{ return TIF; }
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 15 "pl0.l"
-{ return(TTHEN); }
+#line 14 "pl0.l"
+{ return TTHEN; }
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 16 "pl0.l"
-{ return(TWHILE); }
+#line 15 "pl0.l"
+{ return TWHILE; }
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 17 "pl0.l"
-{ return(TDO); }
+#line 16 "pl0.l"
+{ return TDO; }
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 18 "pl0.l"
-{ return(ASSIGN); }
+#line 17 "pl0.l"
+{ return ASSIGN; }
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 19 "pl0.l"
-{ return(NE); }
+#line 18 "pl0.l"
+{ return NE; }
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
-#line 20 "pl0.l"
-{ return(LE); }
+#line 19 "pl0.l"
+{ return LE; }
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
-#line 21 "pl0.l"
-{ return(GE); }
+#line 20 "pl0.l"
+{ return GE; }
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
-#line 22 "pl0.l"
+#line 21 "pl0.l"
 { return NUM; }
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
-#line 23 "pl0.l"
-{ return(ID); }
+#line 22 "pl0.l"
+{ return ID; }
 	YY_BREAK
 case 19:
 YY_RULE_SETUP
-#line 24 "pl0.l"
+#line 23 "pl0.l"
 { return yytext[0]; } ;
 	YY_BREAK
 case 20:
 /* rule 20 can match eol */
 YY_RULE_SETUP
-#line 25 "pl0.l"
+#line 24 "pl0.l"
 ;
 	YY_BREAK
 case 21:
 YY_RULE_SETUP
-#line 26 "pl0.l"
+#line 25 "pl0.l"
 ECHO;
 	YY_BREAK
-#line 870 "lex.yy.c"
+#line 869 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -1863,7 +1862,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 26 "pl0.l"
+#line 25 "pl0.l"
 
 
 
