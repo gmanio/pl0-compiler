@@ -37,7 +37,9 @@ expr:
 %%
 void yyerror(char *s)
 {
+  printf( "*************** Result ****************\n\n");
   printf("%s\n", s);
+  printf( "*************** Result ****************\n\n");
 }
 
 int main(void)
