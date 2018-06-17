@@ -19,9 +19,10 @@ nonws [^ \t\n]
 
 main() {
 	yylex();
-	printf( "%8d %8d %8d\n", lc, wc, cc );
-	}
-
+	printf( "*************** Result ****************\n\n");
+	printf( "LC(Line) :: WC(Word) :: CC(Characters)\n");
+	printf( "%8d %8d %8d\n\n", lc, wc, cc );
+	printf( "*************** Result ****************\n");	}
 /*
 yywrap() {
 	return(1);
