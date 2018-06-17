@@ -737,7 +737,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 18 "wc.l"
+#line 17 "wc.l"
 ECHO;
 	YY_BREAK
 #line 744 "lex.yy.c"
@@ -1737,7 +1737,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 18 "wc.l"
+#line 17 "wc.l"
 
 
 
@@ -1747,7 +1747,6 @@ main() {
 	printf( "LC(Line) :: WC(Word) :: CC(Characters)\n");
 	printf( "%8d %8d %8d\n\n", lc, wc, cc );
 	printf( "*************** Result ****************\n");	}
-
 /*
 yywrap() {
 	return(1);

@@ -2,6 +2,6 @@
 
 flex wc.l
 
-gcc -o compiler lex.yy.c -ll -std=gnu89
+gcc -o wc lex.yy.c -ll -std=gnu89
 
-echo "1234567890" | ./compiler
+echo "1234567890" | ./wc

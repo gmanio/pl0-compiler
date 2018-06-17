@@ -14,7 +14,6 @@ nonws [^ \t\n]
 {ws}+		cc += yyleng;
 
 \n		++lc; ++cc;
-
 %%
 
 main() {
